@@ -1,0 +1,129 @@
+{
+    "User":[
+        {
+    "name": "John Doe",
+    "mobNumber": "+1234567890",
+    "age": 30,
+    "dob": "1993-01-01",
+    "email": "john.doe@example.com",
+    "password": "securepassword",
+    "address": {
+      "addLine1": "123 Main St",
+      "addLine2": "Apt 4B",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    },
+    "languages": ["English", "Bangla", "Hindi"],
+    "gender": "Male",
+    "aboutYou": "I am a software developer with a passion for coding.",
+    "uploadPhoto": "path/to/photo.jpg",
+    "agreeToTerms": true,
+    "role": "User",
+    "id": "12345"
+}
+
+]
+
+
+,
+
+
+    "products": [
+      {
+        "id": 1,
+        "name": "Red Insulated Water Bottle",
+        "uploadphoto": "https://toppng.com/uploads/preview/red-insulated-water-bottle-500ml-water-bottle-11563327333av7vq7r9ly.png",
+        "productDesc": "A 500ml red insulated water bottle to keep your drinks hot or cold.",
+        "mrp": 25.99,
+        "dp": 19.99,
+        "status": "available"
+      },
+      {
+        "id": 2,
+        "name": "Blue Insulated Water Bottle",
+        "uploadphoto": "https://toppng.com/uploads/preview/blue-insulated-water-bottle-500ml-water-bottle-11563327333bv7vq7r9ly.png",
+        "productDesc": "A 500ml blue insulated water bottle to keep your drinks hot or cold.",
+        "mrp": 27.99,
+        "dp": 21.99,
+        "status": "available"
+      },
+      {
+        "id": 3,
+        "name": "Green Insulated Water Bottle",
+        "uploadphoto": "https://toppng.com/uploads/preview/green-insulated-water-bottle-500ml-water-bottle-11563327333cv7vq7r9ly.png",
+        "productDesc": "A 500ml green insulated water bottle to keep your drinks hot or cold.",
+        "mrp": 23.99,
+        "dp": 18.99,
+        "status": "unavailable"
+      }
+    ]
+
+    ,
+        "orders": [
+          {
+            "id": 1,
+            "userId": 101,
+            "sellerId": 201,
+            "Products": [
+              {
+                "id": 1,
+                "name": "Red Insulated Water Bottle",
+                "uploadphoto": "https://toppng.com/uploads/preview/red-insulated-water-bottle-500ml-water-bottle-11563327333av7vq7r9ly.png",
+                "productDesc": "A 500ml red insulated water bottle to keep your drinks hot or cold.",
+                "mrp": 25.99,
+                "dp": 19.99,
+                "status": "available"
+              },
+              {
+                "id": 2,
+                "name": "Blue Insulated Water Bottle",
+                "uploadphoto": "https://toppng.com/uploads/preview/blue-insulated-water-bottle-500ml-water-bottle-11563327333bv7vq7r9ly.png",
+                "productDesc": "A 500ml blue insulated water bottle to keep your drinks hot or cold.",
+                "mrp": 27.99,
+                "dp": 21.99,
+                "status": "available"
+              }
+            ],
+            "deliveryAddress": {
+              "addLine1": "123 Main St",
+              "addLine2": "Apt 101",
+              "city": "New York",
+              "state": "NY",
+              "zipCode": "10001"
+            },
+            "contact": "123-456-7890",
+            "dateTime": "2024-06-26T14:30:00Z"
+          },
+          {
+            "id": 2,
+            "userId": 102,
+            "sellerId": 202,
+            "Products": [
+              {
+                "id": 3,
+                "name": "Green Insulated Water Bottle",
+                "uploadphoto": "https://toppng.com/uploads/preview/green-insulated-water-bottle-500ml-water-bottle-11563327333cv7vq7r9ly.png",
+                "productDesc": "A 500ml green insulated water bottle to keep your drinks hot or cold.",
+                "mrp": 23.99,
+                "dp": 18.99,
+                "status": "unavailable"
+              }
+            ],
+            "deliveryAddress": {
+              "addLine1": "456 Oak Ave",
+              "addLine2": "",
+              "city": "Los Angeles",
+              "state": "CA",
+              "zipCode": "90001"
+            },
+            "contact": "987-654-3210",
+            "dateTime": "2024-06-27T10:00:00Z"
+          }
+        ]
+      
+      
+  
+  
+  }
+  
